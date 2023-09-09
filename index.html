@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>travelo</title>
+</head>
+<body>
+
+    <header class="d-flex">
+        <div><a href=""><img src="img/logo.png" alt="logo"></a></div>
+
+        <nav>
+            <ul class="header-menu" id="menu">
+                <li>Home</li>
+                <li>About</li>
+                <li>Destination</li>
+                <li>Pages</li>
+                <li>Blog</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+
+        <div>
+            <button class="search-icon d-flex" onclick="showSearch()"><i class="fa fa-search"></i></button>
+            <button class="drop-down-menu d-flex" onclick="showMenu()"><i class="fa fa-bars"></i></button>
+        </div>
+
+        <div class="header-search-container" id="search">
+            <input type="text" class="header-search-input" list="datalist" placeholder="Search...">
+            <datalist id="datalist">
+                <option value="Iran"></option>
+                <option value="United State"></option>
+                <option value="Australia"></option>
+                <option value="Canda"></option>
+                <option value="Germany"></option>
+                <option value="China"></option>
+                <option value="France"></option>
+                <option value="Belgium"></option>
+                <option value="Colombia"></option>
+                <option value="Brazil"></option>
+                <option value="Argentina"></option>
+                <option value="Bangladesh"></option>
+                <option value="Greece"></option>
+                <option value="Chile"></option>
+                <option value="Cambodia"></option>
+                <option value="Algeria"></option>
+                <option value="Cameroon"></option>
+                <option value="Afghanistan"></option>
+                <option value="Egypt"></option>
+                <option value="Cuba"></option>
+                <option value="Ghana"></option>
+                <option value="Austria"></option>
+                <option value="Finland"></option>
+                <option value="India"></option>
+                <option value="Denmak"></option>
+                <option value="Iraq"></option>
+                <option value="Swizerland"></option>
+            </datalist>
+            <button class="search-box-icon"><i class="fa fa-search"></i></button>
+        </div>
+    </header>
+
+
+    <main>
+
+        <section class="slider">
+            <div class="slider-text d-flex">
+                <h3>Australia</h3>
+                <p>Best tours and high traveling enjoyment</p>
+                <a href="" class="slider-btn">Explore Now</a>
+            </div>
+        </section>
+
+        <section class="search-bar d-flex">
+            <h3>Where you want to go?</h3>
+            <form action="" class="search-form d-flex">
+                <input type="text" placeholder="Where to go?">
+                <input type="text" placeholder="Where to go?">
+                <input type="text" placeholder="Where to go?">
+                <button type="submit" class="search-btn">Search</button>
+            </form>
+        </section>
+
+        <section class="popular">
+            <section class="row popular-heading">
+                <h3 class="popular-title">Popular Destination</h3>
+                <p class="popular-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas iste repellat sequi aperiam ipsum blanditiis modi quas nulla maiores dolores.</p>
+            </section>
+
+            <section class="row popular-content">
+
+                <article>
+                    <img src="img/1.png" alt="1">
+                    <div class="popular-img-info">
+                        <p>Italy <a href="">07 Places</a></p>
+                    </div>
+                </article>
+
+                <article>
+                    <img src="img/2.png" alt="2">
+                    <div class="popular-img-info">
+                        <p>Brazil <a href="">03 Places</a></p>
+                    </div>
+                </article>
+
+                <article>
+                    <img src="img/3.png" alt="3">
+                    <div class="popular-img-info">
+                        <p>America <a href="">10 Places</a></p>
+                    </div>
+                </article>
+
+                <article>
+                    <img src="img/4.png" alt="4">
+                    <div class="popular-img-info">
+                        <p>Nepal <a href="">02 Places</a></p>
+                    </div>
+                </article>
+
+                <article>
+                    <img src="img/5.png" alt="5">
+                    <div class="popular-img-info">
+                        <p>Maldives <a href="">02 Places</a></p>
+                    </div>
+                </article>
+
+                <article>
+                    <img src="img/6.png" alt="6">
+                    <div class="popular-img-info">
+                        <p>Maldives <a href="">02 Places</a></p>
+                    </div>
+                </article>
+
+            </section>
+        </section>
+
+        <section class="newsletter d-flex">
+            <div class="row newsletter-container">
+
+                <div class="newsletter-text d-flex">
+                    <h4>Subscribe Our Newsletter</h4>
+                    <p>Subscribe newsletter to get offers and about new places to discover</p>
+                </div>
+
+                <div class="mail-form d-flex">
+                    <input type="email" placeholder="Your Mail">
+                    <button class="newsletter-btn" type="submit">Subscribe</button>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="video">
+            <div class="video-container d-flex">
+                <h3>Enjoy Video</h3>
+                <div class="video-btn d-flex">
+                    <a href=""><i class="fa fa-play"></i></a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="row">
+        <div class="left-footer">
+            <img src="img/footer_logo.png" alt="footer-logo" class="footer-img">
+            <ul class="footer-info">
+                <li>5th flora, 700/D kings road, green</li>
+                <li>lane New York-1782</li>
+                <li>+10 367 827 2567</li>
+                <li>contact@something.com</li>
+            </ul>
+        </div>
+
+        <div class="right-footer">
+            <h3 class="footer-title">Popular Destination</h3>
+            <ul class="links">
+                <li><a>Indonesia</a></li>
+                <li><a>India</a></li>
+                <li><a>Italy</a></li>
+                <li><a>France</a></li>
+                <li><a>America</a></li>
+                <li><a>Swizerland</a></li>
+                <li><a>Canda</a></li>
+                <li><a>England</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script>
+        function showMenu() {
+            var menu = document.getElementById("menu");
+            if(menu.className === "header-menu") {
+                menu.className += " show";
+            } else {
+                menu.className = "header-menu";
+            }
+        }
+
+        function showSearch() {
+            var search = document.getElementById("search");
+            if (search.className === "header-search-container") {
+                search.className += " show";
+            } else {
+                search.className = "header-search-container";
+            }
+        }
+    </script>
+
+</body>
+</html>

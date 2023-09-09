@@ -1,0 +1,144 @@
+/* Small devices (992px and down) */
+@media (max-width: 992px) {
+    nav .header-menu{
+        display: none;
+        margin-right: 15px;
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 100%;
+    }
+
+    nav .header-menu li{
+        display: block;
+        width: 100%;
+        margin: 5px;
+        padding: 10px 0;
+        text-align: center;
+        border-radius: 5px;
+        font-weight: bold;
+        color: #333;
+        border: 2px solid #000;
+        background:linear-gradient(90deg, rgb(59, 109, 142, .7) 0%, #1ec6b6 100%);
+    }
+
+    nav .header-menu li:hover{
+        color: #ff4a52;
+    }
+}
+
+
+
+@media (max-width: 320px) {
+    .header-search-input{
+        width: 95%!important;
+        margin-bottom: 5px;
+    }
+
+    .search-box-icon{
+        width: 95%!important;
+        
+        transform: translate(0, 0)!important;
+    }
+
+    .header-search-input:focus{
+        margin-bottom: 4px;
+        transform: translateY(-1px);
+    }
+}
+
+
+
+@media (max-width: 380px) {
+    .popular-content article{
+        width: 95%;
+    }
+} 
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    nav ul li{
+        display: inline-block!important;
+        margin-right: 35px;
+        margin-top: 13px;
+        font-size: 1.3em;
+    }
+
+    .drop-down-menu{
+        display: none!important;
+    }
+
+    .search-icon{
+        right: 0!important;
+    }
+    
+    .search-bar h3{
+        font-size: 18px!important;
+    }
+    
+    .search-bar{
+        flex-direction: row!important;
+        justify-content: center;
+    }
+
+    .search-form{
+        flex-direction: row!important;
+        justify-content: center;
+    }
+
+    .newsletter-container{
+        flex-direction: row!important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .newsletter-text{
+        margin-top: 0!important;
+    }
+
+    .mail-form{
+        flex-direction: row!important;
+        align-items: center;
+    }
+
+    .mail-form input{
+        margin-right: 5px!important;
+        margin-left: 15px!important;
+    }
+
+    footer{
+        flex-direction: row!important;
+        justify-content: space-evenly!important;
+    }
+}
+
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .search-icon{
+        width: 100px!important;
+    }
+}
+
+
+
+@media (min-width: 1581.99px) {
+    .popular-content{
+        padding: 0 10vw;
+    }
+}
