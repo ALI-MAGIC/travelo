@@ -29,9 +29,9 @@
 
 
 
-@media (max-width: 320px) {
+@media (max-width: 600px) {
     .header-search-input{
-        width: 100%!important;
+        width: 95%!important;
         margin-bottom: 5px;
     }
 
